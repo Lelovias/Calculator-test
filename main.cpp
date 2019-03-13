@@ -2,13 +2,14 @@
 
 String rrz;
 
-
-char rz = a;
+String st1
+String rz = "a";
 char abc;
 int z1 = 0;
 int z2 = 0;
 int z1b = 0;
 int e = 0;
+char c1;
 
 
 
@@ -37,8 +38,8 @@ void loop() {
 
     if (Serial.available() && z1 != 0 && rz == "a") {
 
-        char rz = Serial.readStringUntil(abc);
-
+        rz = Serial.readStringUntil(abc);
+        c1 = st1[0];
         Serial.println(rz);
       }
 
